@@ -1,29 +1,26 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This is a simple example to show the difference between three important keywords in PHP OOP i.e. self, static, $this.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Demonstrate OOP concepts in PHP
+* Using best practives in object oriented programming
 
 ### How do I get set up? ###
 
-* Summary of set up
+* Clone the repo to your local drive and run using either command line php interpreter or a webserver like apache
 * Configuration
 * Dependencies
 * Database configuration
 * How to run tests
 * Deployment instructions
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Repo owner or [developer]
+* [Home Page]
+
+
+[developer]: <mailto:iloveyii@yahoo.com>
+[Home Page]: <http://softhem.se>
