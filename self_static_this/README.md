@@ -3,10 +3,11 @@
 This is a simple example to show the difference between three important keywords in PHP OOP i.e. self, static, $this.
 
 ### Result ###
-* Keywords $this and static always refers to the child class regardless execution place.
-* It means whether the keywords $this and static are used in child or parent class they refer to child class.
+* Keywords $this and static always refers to the child class regardless of execution place.
+It means whether the keywords $this and static are used in child or parent class they refer to child class.
 * On the other hand self refers to the class in which it is used.
 * So if self is used in child class then it will run method show in child class and if it runs in parent then parent class
+method show will be executed.
 
 ### What is this repository for? ###
 
