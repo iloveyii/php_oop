@@ -49,7 +49,6 @@ class ChildClass extends ParentClass
 
     public static function which()
     {
-        self::nonstatic();
         parent::which();
 
         echo 'Inside child which'.PHP_EOL;
