@@ -49,6 +49,7 @@ class ChildClass extends ParentClass
 
     public static function which()
     {
+        self::nonstatic();
         parent::which();
 
         echo 'Inside child which'.PHP_EOL;
@@ -57,7 +58,9 @@ class ChildClass extends ParentClass
     }
 }
 
-// Test $this => it always points to childClass regardless of its location i.e both inside ParentClass and ChildClass
+/** Test Drive */
+
+// The keyword $this always points to childClass regardless of its location i.e both inside ParentClass and ChildClass
 $child = new ChildClass();
 
 // The static keyword acts like $this which points to child class whether used in Child or Parent Classes
