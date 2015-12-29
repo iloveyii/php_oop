@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: talha
+ * User: Hazrat Ali
  * Date: 2015-12-26
  * Time: 12:18
  */
@@ -57,6 +57,9 @@ class ChildClass extends ParentClass
     }
 }
 
-new ChildClass();
+// Test $this => it always points to childClass regardless of its location i.e both inside ParentClass and ChildClass
+$child = new ChildClass();
 
+// The static keyword acts like $this which points to child class whether used in Child or Parent Classes
+// However the self keyword points to class in which it is used
 ChildClass::which();
