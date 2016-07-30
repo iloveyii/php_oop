@@ -17,7 +17,7 @@ class ParentClass
         $this->show('this');
     }
 
-    public static function show ($who)
+    public static function show($who)
     {
         echo 'This is a PARENT function called by keyword ' .$who . PHP_EOL;
         echo '---------------------------------------------------' . PHP_EOL;
@@ -41,7 +41,7 @@ class ChildClass extends ParentClass
         $this->show('this');
     }
 
-    public static function show ($who)
+    public static function show($who)
     {
         echo 'This is a CHILD function called by keyword ' .$who . PHP_EOL;
         echo '---------------------------------------------------' . PHP_EOL;
